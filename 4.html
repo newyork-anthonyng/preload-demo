@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="preload" href="https://pbs.twimg.com/profile_images/875749462957670400/T0lwiBK8_400x400.jpg" as="image" media="(max-width: 500px)">
+        <link rel="preload" href="http://t3.gstatic.com/images?q=tbn:ANd9GcRquuLoBCLsl1RwKYlH1A0fN59BqmmeJur5RbRETMHJvmmsLIdu" as="image" media="(min-width: 501px)">
+        <style>
+            .small {
+                background-color:azure;
+            }
+
+            .big {
+                background-color:coral;
+                font-size: 50px;
+                display: none;
+            }
+
+            @media (min-width: 501px) {
+                .small {
+                    display: none;
+                }
+
+                .big {
+                    display: block;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="small">Look in the Network tab. A small image should be loaded.</div>
+        <div class="big">Look in the Network tab. A large image should be loaded.</div>
+    </body>
+</html>
