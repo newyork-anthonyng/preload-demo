@@ -1,3 +1,14 @@
+# Getting started
+```shell
+npm install
+# Install npm dependencies
+
+npm start
+# Start server
+
+# Go to localhost:3000 in your browser
+```
+
 # A demo of what `preload` can do
 * Normal webpage without `preload`
     * localhost:3000/1
